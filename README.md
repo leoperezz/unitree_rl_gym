@@ -38,10 +38,10 @@ The basic workflow for using reinforcement learning to achieve motion control is
 
 ### 1. Training
 
-Run the following command to start training:
+Run the following command to start training (`num_envs=1` just for testing):
 
 ```bash
-python legged_gym/scripts/train.py --task=xxx
+python legged_gym/scripts/train.py --task=xxx --num_envs=1
 ```
 
 #### ⚙️ Parameter Description
